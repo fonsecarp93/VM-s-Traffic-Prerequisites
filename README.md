@@ -35,8 +35,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p>
 1.) 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/zbs2n3Q"><a href="//imgur.com/zbs2n3Q"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-</p>
+  
+![image](https://github.com/fonsecarp93/VM-s-Traffic-Prerequisites/assets/139266016/ccf5342a-7cd5-420a-a046-24431d4ba4c1)
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
