@@ -34,9 +34,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-1.) 
+
   
-[<img src="https://github.com/fonsecarp93/VM-s-Traffic-Prerequisites/assets/139266016/ccf5342a-7cd5-420a-a046-24431d4ba4c1" height="40%" width="40%" alt="Disk Sanitization Steps"/>](https://imgur.com/8mWVwUT)    
+1.) The first step will be to create a Resource Group, within Azure (https://portal.azure.com/). Create your Windows 10 Pro, version 22H2 Virtual Machine within the created Resource Group. 
+NOTE: Ensure the VM has at least 2vcpus and 16 GiB memory.
+
+When creating the VM, allow a new Virtual Network and Subnet to be created.
+
+2.) In the same resource group from step 1, create your Linux (Ubuntu) Server 20.04 LTS. 
+  
+    
+
+<img src="https://i.imgur.com/oRPg6fI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 <p>
