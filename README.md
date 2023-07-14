@@ -1,5 +1,7 @@
 # VM-s-Traffic-Prerequisites
-This list is a brief description of how to setup your two Virtual Machines (Windows and Ubuntu), so that Network Traffic may be observed between them both.
+This list is a brief description of how to setup your two Virtual Machines (Windows and Linux), so that Network Traffic may be observed between them both.
+
+<img src="https://i.imgur.com/5Xcad7u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 # osticket-prereqs
 
@@ -20,12 +22,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Wireshark
-- 
 
 <h2>Operating Systems Used </h2>
 
 - Windows 10 Pro</b> (22H2)
-- Ubuntu Server</b> (20.04 LTS)
+- [Linux] Ubuntu Server</b> (20.04 LTS)
 
 <h2>List of Prerequisites</h2>
 
@@ -39,9 +40,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 1.) The first step will be to create a Resource Group, within Azure (https://portal.azure.com/). Create your Windows 10 Pro, version 22H2 Virtual Machine within the created Resource Group. 
 NOTE: Ensure the VM has at least 2vcpus and 16 GiB memory.
 
+<img src="https://i.imgur.com/Y1DgfIA.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
+
 When creating the VM, allow a new Virtual Network and Subnet to be created.
 
-2.) In the same resource group from step 1, create your Linux (Ubuntu) Server 20.04 LTS. The Ubunt VM is okay to run on minimal vcups and Gib memory.
+<img src="https://i.imgur.com/QDcrOuu.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
+
+2.) In the same resource group from step 1, create your Linux (Ubuntu) Server 20.04 LTS. The Ubuntu VM is okay to run on minimal vcups and Gib memory.
+
+<img src="https://i.imgur.com/cs789uO.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
 
 
 3.) Connect to your Windows 10 VM via Remote Desktop, using the public IP address and created login information. Once connected, download and install Wireshark on the VM. (https://www.wireshark.org)
