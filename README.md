@@ -3,19 +3,6 @@ This list is a brief description of how to setup your two Virtual Machines (Wind
 
 <img src="https://i.imgur.com/5Xcad7u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-# osticket-prereqs
-
-<p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
-</p>
-
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
-
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -52,32 +39,34 @@ When creating the VM, allow a new Virtual Network and Subnet to be created.
 
 <img src="https://i.imgur.com/cs789uO.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
+NOTE: When creating the Linux VM, choose the previously selected Resource Group and V-Network as the Windows 10 VM.
 
+<img src="https://i.imgur.com/euaBqEw.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/v0exv6S.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
+- Double check that both of your Virtual Machines have the same Virtual Network/Subnet in Microsoft Azure
+
+<img src="https://i.imgur.com/td9fAQG.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dfFMgxa.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
 3.) Connect to your Windows 10 VM via Remote Desktop, using the public IP address and created login information. Once connected, download and install Wireshark on the VM. (https://www.wireshark.org)
+
+- Obtain your Windows 10 Public IP address from within Microsoft Azure
   
-    
+<img src="https://i.imgur.com/J0cI8b9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<img src="https://i.imgur.com/oRPg6fI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- Remote desktop into the Windows 10 VM, using the retrieved Public IP address
+
+<img src="https://i.imgur.com/lIHeUOa.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
+- Using the Windows 10 Virtual Machine, use the browers to download and install Wireshark. (https://www.wireshark.org)
+
+<img src="https://i.imgur.com/3XYQ6Ya.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/U6Dd4XI.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
 
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+- Once installed, open Wireshark and you may begin filtering for your various traffics
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<img src="https://i.imgur.com/M5gDNmi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
