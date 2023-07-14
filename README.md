@@ -41,7 +41,10 @@ NOTE: Ensure the VM has at least 2vcpus and 16 GiB memory.
 
 When creating the VM, allow a new Virtual Network and Subnet to be created.
 
-2.) In the same resource group from step 1, create your Linux (Ubuntu) Server 20.04 LTS. 
+2.) In the same resource group from step 1, create your Linux (Ubuntu) Server 20.04 LTS. The Ubunt VM is okay to run on minimal vcups and Gib memory.
+
+
+3.) Connect to your Windows 10 VM via Remote Desktop, using the public IP address and created login information. Once connected, download and install Wireshark on the VM. (https://www.wireshark.org)
   
     
 
