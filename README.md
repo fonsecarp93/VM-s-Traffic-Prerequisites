@@ -24,7 +24,7 @@ This list is a brief description of how to setup your two Virtual Machines (Wind
 <p>
 
   
-1.) The first step will be to create a Resource Group, within Azure (https://portal.azure.com/). Create your Windows 10 Pro, version 22H2 Virtual Machine within the created Resource Group. 
+1.) The first step will be to create a Resource Group, within [Azure](https://portal.azure.com/). Create your Windows 10 Pro, version 22H2 Virtual Machine within the created Resource Group. 
 NOTE: Ensure the VM has at least 2vcpus and 16 GiB memory.
 
 <img src="https://i.imgur.com/Y1DgfIA.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
