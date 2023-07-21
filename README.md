@@ -70,3 +70,6 @@ NOTE: When creating the Linux VM, choose the previously selected Resource Group 
 
 
 <img src="https://i.imgur.com/M5gDNmi.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+
+
+<h3>Proceed to the next section - [VM's & Traffic: Observing Traffic](https://github.com/fonsecarp93/VMs-Traffic-Observing</h3>
